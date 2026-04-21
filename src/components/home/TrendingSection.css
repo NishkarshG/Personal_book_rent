@@ -1,0 +1,78 @@
+.trending-box {
+  background-color: var(--bg-yellow);
+  border: 1px solid var(--border-yellow);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+}
+
+.trending-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.trending-header h3 {
+  font-size: 1.05rem;
+  margin-bottom: 2px;
+}
+
+.trending-sub {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.trending-list {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.trend-card {
+  display: flex;
+  gap: 12px;
+  background: white;
+  border: 1px solid var(--border-main);
+  padding: 12px;
+  border-radius: var(--radius-md);
+  min-width: 260px;
+  box-shadow: var(--shadow-sm);
+}
+
+.trend-img {
+  width: 50px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.trend-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.trend-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+}
+
+.trend-author {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+}
+
+.trend-price {
+  font-size: 0.85rem;
+  font-weight: 600;
+}

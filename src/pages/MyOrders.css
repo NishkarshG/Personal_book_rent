@@ -1,0 +1,57 @@
+.orders-page {
+  padding: 40px 0 80px;
+  background: #fdfdfd;
+}
+
+.orders-header {
+  margin-bottom: 24px;
+}
+
+.orders-header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+}
+
+.orders-header p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.orders-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.pill-tab {
+  background: #f4f4f5;
+  color: var(--text-main);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+.pill-tab.active {
+  background: var(--text-main);
+  color: white;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.empty-state {
+  padding: 40px;
+  text-align: center;
+  color: var(--text-muted);
+  background: white;
+  border: 1px dashed var(--border-main);
+  border-radius: var(--radius-md);
+}

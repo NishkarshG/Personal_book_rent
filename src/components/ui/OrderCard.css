@@ -1,0 +1,166 @@
+.order-card {
+  display: flex;
+  gap: 24px;
+  background: white;
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-md);
+  padding: 24px;
+}
+
+.order-cover-box {
+  flex-shrink: 0;
+  width: 100px;
+}
+
+.order-cover {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--border-main);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.order-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+
+.order-title-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.order-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.status-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.blue-badge {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.green-badge {
+  background: var(--green-bg);
+  color: var(--green-text);
+}
+
+.yellow-badge {
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+.red-badge {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.order-price-group {
+  text-align: right;
+}
+
+.order-amount {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.order-type {
+  font-size: 0.75rem;
+  color: var(--text-light);
+}
+
+.order-meta {
+  margin-bottom: 24px;
+}
+
+.order-author {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.order-id {
+  font-size: 0.75rem;
+  color: var(--text-light);
+}
+
+.order-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.order-col {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.col-label {
+  font-size: 0.7rem;
+  color: var(--text-light);
+}
+
+.col-value {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.order-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.primary-action-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--text-main);
+  color: white;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: opacity 0.2s;
+}
+
+.primary-action-btn:hover {
+  opacity: 0.9;
+}
+
+.secondary-action-btn {
+  background: white;
+  border: 1px solid var(--border-main);
+  color: var(--text-main);
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.secondary-action-btn:hover {
+  background: #f4f4f5;
+}

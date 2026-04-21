@@ -1,0 +1,177 @@
+.card {
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-md);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card-img-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heart-btn {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: var(--text-muted);
+}
+
+.trending-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #16a34a;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.reserved-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #3f3f46;
+  color: white;
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 6px 8px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.1;
+}
+
+.rank-badge {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #52525b;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-top-left-radius: var(--radius-md);
+}
+
+.card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.tag-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tag-cat {
+  background: var(--grey-badge-bg);
+  color: var(--grey-badge-text);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.tag-cond {
+  background: var(--green-bg);
+  color: var(--green-text);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.card-title {
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+.card-author {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.price-bold {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.price-mrp {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  text-decoration: line-through;
+}
+
+.savings-text {
+  font-size: 0.75rem;
+  color: var(--green-text);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.rent-text {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.wishlist-text {
+  font-size: 0.7rem;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.book-btn {
+  background: var(--text-main);
+  color: white;
+  width: 100%;
+  padding: 12px 0;
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: auto;
+  transition: opacity 0.2s;
+}
+
+.book-btn:hover {
+  opacity: 0.9;
+}
