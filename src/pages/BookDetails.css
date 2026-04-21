@@ -328,3 +328,38 @@
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 20px;
 }
+
+@media (max-width: 768px) {
+  .detail-hero,
+  .detail-middle {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .detail-image-box {
+    padding: 24px;
+  }
+  
+  .detail-title {
+    font-size: 1.5rem;
+  }
+  
+  .huge-price {
+    font-size: 1.75rem;
+  }
+  
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .buy-rent-toggle {
+    margin-bottom: 16px;
+  }
+
+  .detail-stats {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+}

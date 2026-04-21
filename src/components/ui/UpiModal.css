@@ -1,0 +1,88 @@
+.upi-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 16px;
+}
+
+.upi-modal-content {
+  background: white;
+  width: 100%;
+  max-width: 400px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.upi-modal-header {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border-main);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upi-modal-header h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.upi-modal-body {
+  padding: 24px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.qr-code-box {
+  margin-bottom: 24px;
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: inline-block;
+  background: #fafafa;
+}
+
+.qr-code-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.pay-amount {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.pay-meta {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+}
+
+.ss-upload-zone {
+  border: 2px dashed var(--border-main);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: white;
+  margin-bottom: 24px;
+}
+
+.ss-upload-zone:hover {
+  background: var(--bg-muted);
+}
+
+.ss-upload-icon {
+  margin-bottom: 8px;
+  color: var(--text-muted);
+}

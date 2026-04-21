@@ -164,3 +164,34 @@
 .secondary-action-btn:hover {
   background: #f4f4f5;
 }
+
+@media (max-width: 768px) {
+  .order-card {
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .order-cover-box {
+    width: 80px;
+  }
+
+  .order-top-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .order-price-group {
+    text-align: left;
+  }
+
+  .order-columns {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .order-actions {
+    flex-direction: column;
+  }
+}

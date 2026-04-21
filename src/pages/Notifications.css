@@ -176,3 +176,15 @@
 .notif-action-btn:hover {
   background: #f4f4f5;
 }
+
+@media (max-width: 768px) {
+  .notif-card {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .notif-action-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+  }
+}
