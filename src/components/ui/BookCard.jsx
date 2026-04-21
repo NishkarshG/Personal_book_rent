@@ -15,6 +15,11 @@ export default function BookCard({ book }) {
     e.stopPropagation();
   };
 
+  const handleBookNowClick = (e) => {
+    e.stopPropagation();
+    navigate(`/book/${book.id}`);
+  };
+
   return (
     <div className="card" onClick={handleCardClick} style={{cursor: 'pointer'}}>
       <div className="card-img-container">
@@ -66,7 +71,7 @@ export default function BookCard({ book }) {
           {book.wishlisted} students wishlisted
         </div>
         
-        <button className="book-btn" onClick={handleBtnClick}>Book Now</button>
+        <button className="book-btn" onClick={handleBookNowClick}>Book Now</button>
       </div>
     </div>
   );

@@ -102,6 +102,11 @@
   box-shadow: var(--shadow-sm);
 }
 
+.toggle-btn.rent-active {
+  background: var(--text-main);
+  color: white;
+}
+
 .detail-price-box {
   background: var(--bg-muted);
   border-radius: var(--radius-md);
@@ -135,6 +140,11 @@
   font-size: 0.85rem;
   font-weight: 600;
   margin-bottom: 24px;
+}
+
+.savings-banner.rent-banner {
+  background: #e0e7ff;
+  color: #4338ca;
 }
 
 .compare-title {

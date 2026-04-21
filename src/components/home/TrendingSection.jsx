@@ -2,10 +2,10 @@ import React from 'react';
 import './TrendingSection.css';
 
 const TRENDING = [
-  { title: "Attack on Titan Vol. 34", author: "Hajime Isayama", price: "190", image: "https://placehold.co/80x120?text=AoT" },
-  { title: "One Piece Vol. 104", author: "Eiichiro Oda", price: "180", image: "https://placehold.co/80x120?text=OP" },
-  { title: "The Psychology of Money", author: "Morgan Housel", price: "180", image: "https://placehold.co/80x120?text=Psych" },
-  { title: "Thinking, Fast and Slow", author: "Daniel Kahneman", price: "180", image: "https://placehold.co/80x120?text=Think" },
+  { title: "Attack on Titan Vol. 34", author: "Hajime Isayama", price: "190", image: "/books/Attack on titan.png" },
+  { title: "One Piece Vol. 104", author: "Eiichiro Oda", price: "180", image: "/books/One Piece Vol. 104.png" },
+  { title: "The Psychology of Money", author: "Morgan Housel", price: "180", image: "/books/Psycology of money.png" },
+  { title: "Thinking, Fast and Slow", author: "Daniel Kahneman", price: "180", image: "/books/Thinking fast and slow.png" },
 ];
 
 export default function TrendingSection() {
